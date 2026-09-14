@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.box_left {
+	height: 110px;
+	width: 200px;
+	background-color: #46686f;
+	margin: 10px;
+	padding: 90px 0 0 0;
+	float: left;
+}
+
+.box_right {
+	height: 110px;
+	width: 200px;
+	background-color: #46686f;
+	margin: 10px;
+	padding: 90px 0 0 0;
+	float: right;
+
+}
+
+.box_left h3, .box_right h3 {
+	color: #ffffff;
+	font-family: "Helvetica", Arial, Verdana, sans-serif;
+	letter-spacing: -1px;
+	text-align: center;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
