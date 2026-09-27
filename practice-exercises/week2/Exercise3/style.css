@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: #ffffff;
+	background-color: red;
 }
 
 #page_wrapper {
@@ -14,14 +14,16 @@ body {
 }
 
 #header {
-	width: 960px;
-	height: 120px;
+	width: 920px;
+	height: 60px;
 	background-color: #222222;
+	color: white;
+	padding: 20px;
 }
 
 #sidebar {
 	width: 200px;
-	height: 560px;
+	height: 360px;
 	background-color: #dddddd;
 	float: left; 
 	padding: 20px;
@@ -34,7 +36,7 @@ body {
 
 #main {
 	width: 680px;
-	height: 560px;
+	height: 360px;
 	background-color: #ffffff;
 	float: left;
 	padding: 20px;
