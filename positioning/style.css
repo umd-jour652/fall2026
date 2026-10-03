@@ -1,0 +1,102 @@
+.header-topper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+figure.header-image {
+    flex: 1 1 100px;
+}
+
+img {
+    width: 100%;
+}
+
+.header-text {
+    flex: 4 1 300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+}
+
+main {
+    flex: 3 1 300px;
+}
+
+aside {
+    flex: 1 1 100px;
+}
+
+main ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+body {
+    margin: 0;
+}
+
+main h3 {
+    position: sticky;
+    top: 40px;
+    background: #fff;
+    width: 100%;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.work-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.work-grid img {
+    width: 100%;
+    padding: 10px;
+}
+
+
+.topper {
+    position: relative;
+}
+
+.topper h1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.topper figure {
+    margin: 0;
+}
+
+/*
+.topper img {
+    opacity: 0.5;
+} */
+
+main {
+    background-image: url('TidalBasin.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
