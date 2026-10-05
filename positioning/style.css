@@ -1,3 +1,4 @@
+
 .header-topper {
     display: flex;
     flex-direction: row-reverse;
@@ -30,10 +31,12 @@ aside {
     flex: 1 1 100px;
 }
 
+/*
 main ul {
     display: flex;
     flex-wrap: wrap;
 }
+*/
 
 nav {
     display: flex;
@@ -58,9 +61,10 @@ main h3 {
     padding: 10px;
 }
 
+
 .work-grid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     gap: 20px;
 }
 
@@ -86,11 +90,11 @@ main h3 {
 .topper figure {
     margin: 0;
 }
-
 /*
 .topper img {
     opacity: 0.5;
 } */
+
 
 main {
     background-image: url('TidalBasin.jpg');
@@ -100,3 +104,4 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
