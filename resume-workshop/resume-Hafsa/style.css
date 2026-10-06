@@ -1,56 +1,127 @@
 /* styles for my resume */
 
 /* font styles for full body of page */ 
-body {
+body{
     font-family: 'arial';
     font-size: 1em;
     color: #444;
 }
 
 /* my name up top */
-h1{
+#name{
     font-size: 3em;
     color: #33485e;
     text-transform: uppercase;
     text-align: center;
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
 }
 
 /* the subheading, which is my title */
-.my-title {
+#title{
   font-size: 1.5em;
   color: #33485e;
   text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px;
+  padding: -30px;
 }
 
 /* the different sections, experience, education, skills */
-h2 {
+.sectionheader{
   font-size: 1.53em;
   text-transform: uppercase;
   font-weight: 400;
   background-color: #33485e;  
   color: white;
+  margin: 20px 0 10px;
+  padding: 5px 0 5px 10px;
+  width: 100%;
+  min-width: 300px;
 }
 
 /* job titles */
-h3 {
+.jobtitle{
     font-size: 1.5em;
     font-weight: 600;
 }
 
 /* job organizations */
-h4 {
-    font-size: 1.5em;
+.organization{
+    font-size: 1.2em;
     font-weight: 400;
     font-style: italic;
 }
 
 /* job dates */
-h5 {
+.date{
     font-size: 1em;
     font-weight: 700;
+    margin: 2px 0 0 0;
 }
 
 /* all bulleted lists font sizes */
-ul {
+ul{
     font-size: 1em;
 } 
+
+#container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.description{
+    margin: 10px 0;
+}
+
+ul.menu{
+    margin: 10px 0 0 20px;
+    padding: 0px;
+    text-align: center;
+}
+
+ul.menu li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#degrees{
+    margin:5px;
+}
+
+#do{
+    margin: 5px;
+}
+
+#headshot{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #33485e;
+    margin-bottom: -20px;
+}
+
+#headshot-container{
+    text-align: center;
+    padding: 20px;
+}
+
+a:link{
+    font-weight: 600;
+    color: #0bc5f4;
+}
+
+a:visited{
+    color: #6e38c7;
+}
+
+a:hover{
+    color: #33485e;
+}
+
