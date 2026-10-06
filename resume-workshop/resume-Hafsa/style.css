@@ -1,0 +1,56 @@
+/* styles for my resume */
+
+/* font styles for full body of page */ 
+body {
+    font-family: 'arial';
+    font-size: 1em;
+    color: #444;
+}
+
+/* my name up top */
+h1{
+    font-size: 3em;
+    color: #33485e;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* the subheading, which is my title */
+.my-title {
+  font-size: 1.5em;
+  color: #33485e;
+  text-transform: uppercase;
+}
+
+/* the different sections, experience, education, skills */
+h2 {
+  font-size: 1.53em;
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: #33485e;  
+  color: white;
+}
+
+/* job titles */
+h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+/* job organizations */
+h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* job dates */
+h5 {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+/* all bulleted lists font sizes */
+ul {
+    font-size: 1em;
+} 
