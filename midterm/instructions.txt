@@ -1,0 +1,72 @@
+1. Publication masthead/banner
+
+Use typography, color and design fundamentals to design your publication masthead. Call it whatever you like. You may include an image or icon in your masthead but it is not required. Insert your masthead right after the opening body tag <body>. The width of this masthead should be at least 900px and can be bigger.
+
+2. Headline
+
+Use HTML / CSS to display the headline in a visually interesting manner.
+
+Use <h1> for the headline.
+Make the headline font any size you think makes sense.
+3. Byline
+
+Place the original byline from the story (include the Capital News Service publication name). Place the byline inside a <div> and give it an ID named "byline" in the HTML file, so you can style it. Then in the CSS file, make the byline text 14 pixels, Verdana, and italics, using styling code like this: 
+
+#byline {
+font-family: Verdana, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+4. Fonts
+
+Make the headline font Verdana with sans-serif as a backup, any size you think makes sense. Use <h1> for the headline.
+
+Make the body text font Georgia, serif, 13 px. Use <p> for the body text.
+
+5. Page-Wrapper/Container Div
+
+Use a <div> with a named ID (use any ID name of your choosing) to lay out all of your story content in a single column and center the column on the page using CSS.
+
+The width of your page content <div> is your choice.
+
+The <div> goes into your HTML file after your <body> tag and before your story headline. Make sure both the headline and story text are included inside this page-wrapper <div>. Be sure to close the <div> at the bottom of your page, just before the closing body tag. (You can choose to add your publication masthead/banner inside or outside the container div -- up to you.)
+
+6. Images
+
+Include the three provided images in your design. Include alt text with all photos.
+
+Include captions and credits below each image. You can take the captions from the original story for your alt text if you like or write your own. Use <p> to add the captions/credits below each image. Feel free to use CSS to style these.
+
+7. Pull quote
+
+Create a pull quote from the story. Use the <blockquote> HTML tag to display your pull quote. Be sure to pull an interesting quote from the story and display it (large) before the quote appears in the story itself. Use CSS in your external stylesheet to style your pull quote. See these slides for guidance on adding/styling a pull quote.
+
+8. Links 
+
+Include the following three related links as an unordered list at the bottom of the story under a heading that says “Read more”. 
+
+How NBA Academy Africa fuels the future of basketball
+
+NBA Academy Africa stresses fundamentals in developing talent
+
+Dealing with diabetes: African prospect balances condition with NBA dreams
+
+Links to an external site.
+
+9. Additional styling
+
+Add additional styling and design elements to make the page look finished. The specifics are up to you.
+
+Commit your changes to GitHub and submit a GitHub URL.
+
+
+
+
+Useful Links
+
+Find the story text and images here (or in the midterm-review-exercise folder in Files on ELMS): https://github.com/hkim140/fall2025-652-interactive-design-development/tree/main/midterm-review 
+
+Links to an external site.
+
+Here is the original Capital News Service story: https://cnsmaryland.org/2024/09/10/in-africa-nbas-investment-and-ambition-far-outstrip-other-us-pro-leagues/ 
