@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+a#navtitle {
+    font-size: 2rem;
+    color: #ffff00;
+    font-family: "Arial", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#container {
+    width: 65ch;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: "Verdana", sans-serif;
+    margin: 20px 0;
+}
+
+p {
+    font-family: "Georgia", serif;
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+blockquote
+ {
+    color: #808080;
+    font-family: "Verdana", sans-serif;
+    font-size: 11px;
+    margin: 20px 0 20px 10px;
+    border-left: 1px solid black;
+    padding: 0 0 0 10px;
+}
