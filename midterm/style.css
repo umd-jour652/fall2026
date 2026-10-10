@@ -1,9 +1,9 @@
-id {
+#testid {
     font-weight: bold;
     background-color: yellow;
 }
 
-class {
+.testclass {
     font-weight: bold;
     background-color: greenyellow;
 }
