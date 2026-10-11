@@ -52,21 +52,12 @@ NBA Academy Africa stresses fundamentals in developing talent
 
 Dealing with diabetes: African prospect balances condition with NBA dreams
 
-Links to an external site.
-
 9. Additional styling
 
 Add additional styling and design elements to make the page look finished. The specifics are up to you.
 
 Commit your changes to GitHub and submit a GitHub URL.
 
-
-
-
-Useful Links
-
-Find the story text and images here (or in the midterm-review-exercise folder in Files on ELMS): https://github.com/hkim140/fall2025-652-interactive-design-development/tree/main/midterm-review 
-
-Links to an external site.
+Find the story text and images in this GitHub folder or in the midterm-review-exercise folder in Files on ELMS
 
 Here is the original Capital News Service story: https://cnsmaryland.org/2024/09/10/in-africa-nbas-investment-and-ambition-far-outstrip-other-us-pro-leagues/ 
