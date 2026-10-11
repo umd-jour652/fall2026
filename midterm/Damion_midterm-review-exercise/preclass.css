@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    font-size: 2rem;
+    font-family: Arial, serif;
+    font-weight: 700;
+    color: yellow;
+    text-decoration: none;
+}
+
+main {
+    width: 65ch;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    margin: 10px 0;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.testclass {
+    background-color: yellow;
+}
+
+#byline {
+font-family: Verdana, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
