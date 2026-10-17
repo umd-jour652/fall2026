@@ -1,0 +1,178 @@
+/* 
+Let's practice media queries!
+
+Write the following media queries at the very bottom of this stylesheet BELOW the mobile-first styles.
+
+(Helpful tip: Since the default design was designed for mobile-first, use the min-width property in your media queries)
+
+1. On screens wider than 576px: 
+        Set the #colorbox div background color to green.
+        Set the #colorbox h2 text color to white.
+        Set the #green element's display to block.
+        
+2. On screens wider than 768px:
+        Set the #colorbox div background color to blue.
+        Set the #colorbox h2 text color to white.
+        Set the #blue display to block.
+        Set the #green element's display to none.
+
+3. On screens wider than 992px:
+        Set the #colorbox div background color to purple.
+        Set the #colorbox h2 text color to white.
+        Set the #purple display to block.
+        Set the #green and #blue elements' display to none.
+
+4. On screens wider than 1200px:
+        Set the #colorbox div background color to orange.
+        Set the #colorbox h2 text color to black.
+        Set the #orange display to block.
+        Set the #green, #blue, and #purple elements' display to none.
+*/
+
+/* Styles for mobile-first */
+
+#header {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#content {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+#colorbox {
+    border: 2px solid black;
+    width: 100%;;
+    margin: 0 auto;
+    text-align: center;
+    height: 500px;
+    background-color: white;
+}
+
+#colorbox h2 {
+    font-size: 2em;
+    line-height: 200px;
+    color: black;
+}
+
+#green {
+    color: white;
+    display: none;
+}
+
+#blue {
+    color: white;
+    display: none;
+}
+
+#purple {
+    color: white;
+    display: none;
+}
+
+#orange {
+    color: black;
+    display: none;
+}
+
+/* ADD YOUR MEDIA QUERIES BELOW */
+
+
+
+@media (min-width: 576px) {
+    #colorbox {
+        background-color: green;
+    }
+
+    #colorbox h2 {
+        color: white;
+    }
+
+    #green {
+        display: block;
+    }
+    
+} 
+
+@media (min-width: 768px) {
+    #colorbox {
+        background-color: blue;
+    }
+
+    #colorbox h2 {
+        color: white;
+    }
+
+    #blue {
+        display: block;
+    }
+
+    #green {
+        display: none;
+    }
+    
+} 
+
+@media (min-width: 992px) {
+    #colorbox {
+        background-color: purple;
+    }
+
+    #colorbox h2 {
+        color: white;
+    }
+
+    #purple {
+        display: block;
+    }
+
+    #green, #blue {
+        display: none;
+    }
+    
+} 
+
+@media (min-width: 1200px) {
+    #colorbox {
+        background-color: orange;
+    }
+
+    #colorbox h2 {
+        color: black;
+    }
+
+    #orange {
+        display: block;
+    }
+
+    #green, #blue, #purple {
+        display: none;
+    }
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
