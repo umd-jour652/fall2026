@@ -1,0 +1,20 @@
+Step-by-Step Instructions:
+6. Apply the Bootstrap grid system. Remember: You add a column inside a row inside a container to apply the Bootstrap grid system.
+Add a div element in your <body> and give it a class of “container”. Close that div right above the Bootstrap script tag. 
+ 
+At minimum: You should have a column inside a row inside a container. Your content should be inside the column.
+
+13. Commit to GitHub and submit a link by 11:59 p.m. ET, Nov. 1. Your link should look similar to this: https://hkim140.github.io/652-interactive-design-development/bootstrap-practice/
+ 
+REQUIRED ELEMENTS:
+Boilerplate HTML (including charset meta tag and viewport meta tag).
+Call in the Bootstrap code (both the stylesheet and the script tag).
+Apply the Bootstrap grid system. You should have at minimum: One column inside a row inside a container. 
+Feel free to add any kind of styling you’d like! This is a good opportunity to experiment with different styles and practice your HTML and CSS coding.
+
+OPTIONAL: 
+Use margins and padding to improve the spacing around your content (e.g., around the inline image). For instance, in my example, I added a div (with a class "image-container") around my inline image and its accompanying caption/credit, and I added some padding around it.
+Style your headline, byline, photo captions/credits, "More Reads" section using CSS (setting different colors, background-colors, font sizes, font styles, etc.)
+Add a horizontal rule using the self-closing <hr> tag above the "More Reads" section. 
+Style your links using the anchor tag pseudo classes (a:link, a:hover).
+Try adding a footer using a div with a container-fluid class after the closing </div> tag for the container you used for the story content. Inside the container-fluid div, add the words “This is my footer”. Then target the container-fluid class in your stylesheet and add some styling (e.g., add some background color, specify a height, add some padding, align the text center).
