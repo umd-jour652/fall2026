@@ -119,76 +119,7 @@ h1, h2 {
 /* ADD YOUR MEDIA QUERIES BELOW */
 
 
-@media (min-width: 576px) {
-    #colorbox {
-        background-color: green;
-    }
 
-    #colorbox h2 {
-        color: white;
-    }
-
-    #green {
-        display: block;
-    }
-}
-
-@media (min-width: 768px) {
-    #colorbox {
-        background-color: blue;
-    }
-
-    #colorbox h2 {
-        color: white;
-    }
-
-    #blue {
-        display: block;
-    }
-
-    #green {
-        display: none;
-    }
-}
-
-@media (min-width: 992px) {
-    #colorbox {
-        background-color: purple;
-    }
-
-    #colorbox h2 {
-        color: white;
-    }
-
-    #purple {
-        display: block;
-    }
-
-    #green,
-    #blue {
-        display: none;
-    }
-}
-
-@media (min-width: 1200px) {
-    #colorbox {
-        background-color: orange;
-    }
-
-    #colorbox h2 {
-        color: black;
-    }
-
-    #orange {
-        display: block;
-    }
-
-    #green,
-    #blue,
-    #purple {
-        display: none;
-    }
-}
 
 
 
