@@ -1,11 +1,9 @@
 .container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 50px 0;
+    /* width, padding, margin */
 }
 
-.container img {
-    width: 100%;
+.container {
+    /* images width */
 }
 
 .bi {
