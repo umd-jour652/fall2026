@@ -116,9 +116,116 @@ h1, h2 {
     display: none;
 }
 
-/* ADD YOUR MEDIA QUERIES BELOW */
+/* ADD YOUR MEDIA QUERIES BELOW 
+
+1. At 576px and wider:
+   - Set #colorbox's background color to green.
+   - Set the #colorbox heading's text color to white.
+   - Show #green.
+
+*/
 
 
+@media (min-width: 576px) {
+    #colorbox {
+        background-color: green;
+    }    
+
+    #colorbox h2 {
+        color: white;
+    }   
+    
+    #green {
+        display: block;
+    }
+}
+
+/*
+
+2. At 768px and wider:
+   - Set #colorbox's background color to blue.
+   - Set the #colorbox heading's text color to white.
+   - Show #blue and hide #green.
+*/
+
+
+@media (min-width: 768px) {
+
+    #colorbox {
+        background-color: blue;
+    }
+
+    #colorbox h2 {
+        color: white;
+    }   
+    
+    #blue {
+        display: block;
+    }
+
+    #green {
+        display: none;
+    }
+
+}
+
+/* 
+3. At 992px and wider:
+   - Set #colorbox's background color to purple.
+   - Set the #colorbox heading's text color to white.
+   - Show #purple and hide #green and #blue.
+*/
+
+@media (min-width: 992px) {
+
+    #colorbox {
+        background-color: purple;
+    }
+
+    #colorbox h2 {
+        color: white;
+    }   
+    
+    #purple {
+        display: block;
+    }
+
+    #green, #blue {
+        display: none;
+    }
+
+}
+
+
+/*
+
+4. At 1200px and wider:
+   - Set #colorbox's background color to orange.
+   - Set the #colorbox heading's text color to black.
+   - Show #orange and hide #green, #blue, and #purple.
+*/
+
+@media (min-width: 1200px) {
+
+    #colorbox {
+        background-color: orange;
+    }
+
+    #colorbox h2 {
+        color: black;
+    }   
+    
+    #orange {
+        display: block;
+    }
+
+    #green, #blue, #purple {
+        display: none;
+    }
+
+}
+
+/*
 @media (min-width: 576px) {
     #colorbox {
         background-color: green;
@@ -192,7 +299,7 @@ h1, h2 {
 
 
 
-
+*/
 
 
 
