@@ -1,10 +1,11 @@
 Step-by-Step Instructions:
-6. Apply the Bootstrap grid system. Remember: You add a column inside a row inside a container to apply the Bootstrap grid system.
+
+Apply the Bootstrap grid system. Remember: You add a column inside a row inside a container to apply the Bootstrap grid system.
 Add a div element in your <body> and give it a class of “container”. Close that div right above the Bootstrap script tag. 
  
 At minimum: You should have a column inside a row inside a container. Your content should be inside the column.
 
-13. Commit to GitHub and submit a link by 11:59 p.m. ET, Nov. 1. Your link should look similar to this: https://hkim140.github.io/652-interactive-design-development/bootstrap-practice/
+Commit to GitHub and submit a link
  
 REQUIRED ELEMENTS:
 Boilerplate HTML (including charset meta tag and viewport meta tag).
