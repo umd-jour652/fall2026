@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Story carousel</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem 1rem;
+      font-family: system-ui, sans-serif;
+      color: #222;
+      background: #f5f5f5;
+    }
+
+    .carousel {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .carousel h1 {
+      font-size: 1.5rem;
+    }
+
+    .carousel__track {
+      display: flex;
+      gap: 1rem;
+      overflow-x: auto;
+      padding-bottom: 1rem;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .story-card {
+      flex: 0 0 100%;
+      overflow: hidden;
+      background: white;
+      border-radius: 10px;
+      scroll-snap-align: start;
+    }
+
+    .story-card img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+
+    .story-card__text {
+      padding: 1rem;
+    }
+
+    .story-card h2 {
+      margin: 0 0 0.75rem;
+      font-size: 1.4rem;
+    }
+
+    .story-card a {
+      color: #0759a5;
+      font-weight: 700;
+    }
+
+    .carousel__controls {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.5rem;
+    }
+
+    .carousel__controls button {
+      padding: 0.6rem 0.9rem;
+      border: 0;
+      border-radius: 6px;
+      color: white;
+      background: #222;
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .carousel__controls button:focus-visible,
+    .story-card a:focus-visible,
+    .carousel__track:focus-visible {
+      outline: 3px solid #e29b00;
+      outline-offset: 3px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="carousel" aria-label="Featured stories">
+      <h1>Featured stories</h1>
+
+      <div class="carousel__track" id="story-track" tabindex="0">
+        <article class="story-card" role="group" aria-label="Story 1 of 3">
+          <img
+            src="https://placehold.co/1200x675?text=City+Hall"
+            alt="Placeholder image for the city hall story"
+          >
+          <div class="story-card__text">
+            <h2>Inside the debate over the city's new housing plan</h2>
+            <a href="/stories/housing-plan">Read the story</a>
+          </div>
+        </article>
+
+        <article class="story-card" role="group" aria-label="Story 2 of 3">
+          <img
+            src="https://placehold.co/1200x675?text=Local+River"
+            alt="Placeholder image for the river pollution story"
+          >
+          <div class="story-card__text">
+            <h2>Residents question new findings on river pollution</h2>
+            <a href="/stories/river-pollution">Read the story</a>
+          </div>
+        </article>
+
+        <article class="story-card" role="group" aria-label="Story 3 of 3">
+          <img
+            src="https://placehold.co/1200x675?text=School"
+            alt="Placeholder image for the school funding story"
+          >
+          <div class="story-card__text">
+            <h2>What the latest school budget means for classrooms</h2>
+            <a href="/stories/school-budget">Read the story</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="carousel__controls">
+        <button type="button" id="previous-story" aria-label="Scroll to previous story">
+          ← Previous
+        </button>
+        <button type="button" id="next-story" aria-label="Scroll to next story">
+          Next →
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const track = document.querySelector("#story-track");
+    const previousButton = document.querySelector("#previous-story");
+    const nextButton = document.querySelector("#next-story");
+
+    function scrollOneCard(direction) {
+      const firstCard = track.querySelector(".story-card");
+      const cardGap = 16; // This matches the 1rem gap in the CSS.
+
+      track.scrollBy({
+        left: direction * (firstCard.offsetWidth + cardGap),
+        behavior: "smooth"
+      });
+    }
+
+    previousButton.addEventListener("click", () => scrollOneCard(-1));
+    nextButton.addEventListener("click", () => scrollOneCard(1));
+  </script>
+</body>
+</html>
