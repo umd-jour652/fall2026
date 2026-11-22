@@ -3,13 +3,13 @@ const button = document.querySelector('#themeButton');
 button.addEventListener('click', () => {
   document.body.classList.toggle('dark');
 
-/*    const darkModeIsOn = document.body.classList.contains('dark');
+  const darkModeIsOn = document.body.classList.contains('dark');
     button.textContent = darkModeIsOn
     if (darkModeIsOn) {
       button.textContent = 'Turn off dark mode';
     } else {
       button.textContent = 'Turn on dark mode';
-    } */
+    }
 }); 
 
 
